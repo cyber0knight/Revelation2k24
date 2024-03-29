@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <style>
+
+    html {
+        background: rgb(205,0,0);
+        background: linear-gradient(180deg, rgba(205,0,0,1) 20%, rgba(1,1,1,1) 67%);
+    }
+    body {
+      flex-wrap: wrap;
+
+    }
+    .checkbox-container-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checkbox-container {
+margin-right: 150px;
+margin-left: 140px;
+}
+
+.container {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+@media (max-width: 775px) {
+  .checkbox-container {
+  margin-right: 70px;
+  margin-left: 70px;
+  }
+}
+
+@media (min-width: 980px)
+{
+  html, body {
+    height: 100%;
+    margin: 0;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+
+
+.card-body {
+  display: flex;
+}
+
+  .container {
+        justify-content: center;
+        align-items: center;
+    }
+}
+#submitButton:disabled {
+        cursor: not-allowed; /* Change cursor to "not-allowed" when button is disabled */
+    }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Revelation</title>
+
+    <!-- Icons font CSS-->
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="css/main.css" rel="stylesheet" media="all">
+
+    <style>
+        .logo {
+          height: 8vh;
+          width: 15vw;
+          padding-left: 15px;
+          padding-right: 10px;
+          border-radius: 9px;
+          color: transparent;
+        }
+        .bb:hover {
+            background-color: rgb(255, 255, 255);
+        }
+        @media (max-width : 514px) {
+            .disco {
+                display: none;
+            }
+            .navbar {
+                height: 60px;
+            }
+            .logo {
+                height: 48px;
+                width: 133px;
+                padding-left: 3px;
+                padding-right: 15px;
+            }
+            .navbar a {
+                padding: 8px 7px;
+            }
+        }
+        @media (min-width: 500px) and (max-width: 787px) {
+            .logo {
+                height: 50px;
+                width: 150px;
+            }
+        }
+        @media (min-width: 515px) {
+            .b {
+                display: none;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+  <div class="navbar">
+        <a href="#"> <img src="img/rev.png" alt="Revelation_logo" class="logo"> </a>
+        <div class="disco">
+            <a href="../index.html" class="bb"><b>Home</b></a>
+            <a href="../events.html" class="bb"><b>Events</b></a>
+            <a href="../index.html" class="bb"> <b>Contact</b></a>
+        </div>
+        <div class="b">
+            <a href="../index.html" class="bb"><b>Home</b></a>
+            <a href="../events.html" class="bb"><b>Events</b></a>
+
+        </div>
+        
+ </div>
+
+  <div class="container">
+
+            <div class="card card-5">
+                <div class="card-heading">
+                    <h2 class="title">Event Registration</h2>
+                </div>
+                <div class="card-body">
+                    <form method="POST" action="" id="form">
+                        <div class="form-row">
+                            <div class="name">Name</div>
+                            <div class="value">
+                                <div class="row row-space">
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" placeholder="First Name" name="first_name" required autofocus>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" placeholder="Last Name" name="last_name" required>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="form-row">
+                            <div class="name">Email</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="email" name="email" placeholder="Enter Your Email Address" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="name">Contact <br>Number</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="number" name="phone_no" placeholder="Enter Your Phone Number" required>
+                                </div>
+                            </div>
+                        </div>
+
+
+                          <div class="form-row m-b-55">
+                            <div class="name">IIESTIAN ?</div>
+                            <div class="value">
+                                <div class="checkbox-container-wrapper">
+                                    <div class="checkbox-container">
+                                        <div class="checkbox-text">Yes</div>
+                                        <div class="checkbox-button">
+                                            <input type="radio" name="iiestian" value="Yes" checked>
+                                            <span class="checkmark"></span>
+                                        </div>
+                                    </div>
+                                    <div class="checkbox-container">
+                                        <div class="checkbox-text">No</div>
+                                        <div class="checkbox-button">
+                                            <input type="radio" name="iiestian" value="No">
+                                            <span class="checkmark"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="form-row">
+                            <div class="name">Academic Year</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <select name="academic_year" >
+                                            <option value="No_option_Selected" selected>Choose option</option>
+                                            <option>UG First Year</option>
+                                            <option>UG Second Year</option>
+                                            <option>UG Third Year</option>
+                                            <option>UG Fourth Year</option>
+                                            <option>UG Fifth Year</option>
+                                            <option>PG First Year</option>
+                                            <option>PG Second Year</option>
+                                            <option>Others</option>
+
+                                        </select>
+                                        <div class="select-dropdown"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row department-name" id = "dept-inside">
+                            <div class="name">Department Name</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select-search">
+                                        <select name="department_name">
+                                            <option value="No_option_Selected" selected>Choose option</option>
+                                            <option>Aerospace Engineering and Applied Mechanics</option>
+                                            <option>Architecture and Planning</option>
+                                            <option>Chemistry</option>
+                                            <option>Civil Engineering</option>
+                                            <option>Computer Science and Technology</option>
+                                            <option>Electrical Engineering</option>
+                                            <option>Electronics and Telecommunication Engineering</option>
+                                            <option>Humanities and Social Sciences</option>
+                                            <option>Information Technology</option>
+                                            <option>Mathematics</option>
+                                            <option>Mechanical Engineering</option>
+                                            <option>Metallurgy and Materials Engineering</option>
+                                            <option>Mining Engineering</option>
+                                            <option>Physics</option>
+                                            <option>Others</option>
+                                        </select>
+                                        <div class="select-dropdown"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row college-name">
+                            <div class="name">College Name</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="text" name="college_name" placeholder="Enter Your College Name" value="NULL">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row outside" id="dept-outside">
+                            <div class="name">Department Name</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="text" name="department_outside" placeholder="Enter Your Department Name" value="NULL">
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="form-row enrollment-no">
+                            <div class="name">Enrollment <br> Number</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="text" name="enrollment_no" placeholder="Enter Your Enrollment Number" required>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="form-row">
+                            <div class="name">Selected Events</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select--no--search">
+                                        <select name="selected_events" multiple required>
+                                            <!-- <option>Brain Dead</option> -->
+                                            <!-- <option>Build With Us</option> -->
+                                            <option>Chess</option>
+                                            <!-- <option>Code Storm</option> -->
+                                            <option>Fifa</option>
+                                            <!-- <option>Feature Title</option> -->
+                                            <option>Ganitam</option>
+                                            <!-- <option>Root Access</option> -->
+                                            <option>Murder Mystery</option>
+                                            <option>PUBG</option>
+                                            <option>Valorant</option>
+                                            <option>Techno Quiz</option>
+
+                                        </select>
+                                        <div class="select-dropdown"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <button name="btn" id="submitButton" class="btn btn--radius-2 btn--red" type="submit">Register</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="js/global.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // first hide for outsiders
+            $('.college-name, .outside').hide();
+            $('.enrollment-no, .department-name').show();
+
+            // Show/hide fields on checkbox selection
+            $('input[name="iiestian"]').change(function () {
+                if ($(this).val() === 'Yes') {
+                  $('.enrollment-no, .department-name').show();
+                  $('.college-name, .outside').hide();
+
+                } else {
+                  $('.enrollment-no, .department-name').hide();
+                  $('.college-name , .outside').show();
+                  $('input[name="collge_name"]').attr('required', 'required');
+                  $('input[name="department_outside"]').attr('required', 'required');
+                  $('input[name="enrollment_no"]').removeAttr('required', 'required');
+                }
+            });
+        });
+    </script>
+
+    <!-- Script to send the form data -->
+    <script>
+    let url = 'https://script.google.com/macros/s/AKfycbyHnLkMhbklrm3b7udFxzxUuc6WplIysUiqxk68hNOTrYM8VhCa7eTMq3aeoykYBs5peQ/exec';
+    let form = document.querySelector('#form');
+    let submitted = false;
+    form.addEventListener("submit", (e) => {
+        e.target.btn.innerHTML = "Registering";
+       if(!submitted) { let d = new FormData(form);
+        fetch(url,{
+            method: 'POST',
+            body: d
+        }).then((res) => res.text()).then((finalRes) => {
+        e.target.btn.innerHTML = "Registered";
+        alert("Your Registration is Successful!!")
+            console.log(finalRes)
+        })
+        submitted = true;
+        disableSubmit()
+    }
+        e.preventDefault();
+
+    })
+    // function to disable the submit button
+    function disableSubmit() {
+    if(submitted) {
+        var button = document.getElementById("submitButton");
+        button.disabled = true;
+        button.classList.add("disabled");
+    }
+}
+</script>
+
+<!-- function to clear the default values -->
+<script>
+    $(document).ready(function () {
+        $('input[name="department_outside"]').focus(function() {
+            if ($(this).val() === 'NULL') {
+                $(this).val('');
+            }
+        });
+        $('input[name="enrollment_no"]').focus(function() {
+            if ($(this).val() === 'NULL') {
+                $(this).val('');
+            }
+        });
+        $('input[name="college_name"]').focus(function() {
+            if ($(this).val() === 'NULL') {
+                $(this).val('');
+            }
+        });
+    });
+</script>
+</body>
+</html>
