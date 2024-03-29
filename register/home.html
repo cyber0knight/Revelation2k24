@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration Counts</title>
+</head>
+<body>
+    <div id="eventCounts">Loading....</div>
+
+    <script>
+        // Fetch
+        fetch('https://script.google.com/macros/s/AKfycbyHnLkMhbklrm3b7udFxzxUuc6WplIysUiqxk68hNOTrYM8VhCa7eTMq3aeoykYBs5peQ/exec?event=' + 'Chess')
+            .then(response => response.json())
+            .then(eventData => {
+                console.log(eventData);
+                if(eventData)
+                {
+                    document.getElementById('eventCounts').innerHTML = `<div>${eventData.eventName}: ${eventData.count}</div>`;
+                }
+            })
+            .catch(error => console.error('Error fetching event counts:', error));
+    </script>
+</body>
+</html>
