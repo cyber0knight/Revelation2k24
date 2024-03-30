@@ -2713,6 +2713,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .heading-12 {
+  margin-bottom: 50px;
   color: #fff;
   text-align: center;
   margin-top: 100px;
@@ -3291,7 +3292,7 @@ textarea.w-input, textarea.w-select {
   width: 30%;
   grid-column-gap: 50px;
   grid-row-gap: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -3696,6 +3697,7 @@ textarea.w-input, textarea.w-select {
 
 @media screen and (min-width: 1440px) {
   .heading-12 {
+    
     font-size: 60px;
   }
 
