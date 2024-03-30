@@ -2653,6 +2653,7 @@ textarea.w-input, textarea.w-select {
   justify-content: center;
   align-items: center;
   display: flex;
+  gap: 10px;
 }
 
 .feature-wrap-copy {
@@ -2712,6 +2713,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .heading-12 {
+  margin-bottom: 50px;
   color: #fff;
   text-align: center;
   margin-top: 100px;
@@ -3288,8 +3290,9 @@ textarea.w-input, textarea.w-select {
 
 .sponser-box {
   width: 30%;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  margin-bottom: 100px;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -3694,6 +3697,7 @@ textarea.w-input, textarea.w-select {
 
 @media screen and (min-width: 1440px) {
   .heading-12 {
+    
     font-size: 60px;
   }
 
@@ -4126,10 +4130,11 @@ textarea.w-input, textarea.w-select {
   }
 
   .sponser-box {
-    width: 25%;
+    width: 30%;
     height: 46.2632%;
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
+    margin-bottom: 10px;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
   }
 
   .section.hercenter {
