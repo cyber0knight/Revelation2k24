@@ -1,7 +1,7 @@
-
+/* chess */
 body {
-  font-family: Arial, sans-serif;
-  background-color: black;
+  font-family:Exo ,sans-serif;
+  background-color: rgba(1, 7, 7, 255);
   color: #ffffff;
   margin: 0;
   padding: 0;
@@ -59,24 +59,27 @@ body {
 }
 
 h1 {
-  font-size: 6vw;
-  padding: 2vh;
-  margin: 0;
+  font-family: Exo ,sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  
+  color: rgb(239, 232, 232);
+ 
 }
 
 h1,
 h2,
 h3 {
-  color: rgb(255, 166, 0);
+  
   text-align: center;
   transition: color 0.5s;
-  padding: 15px;
 }
 
-.tag {
+h2{
+  font-size: 20px;
   padding-bottom: 2vh;
-  color: rgba(255, 219, 161, 0.87);
-}
+    font-weight: bold;
+    color: rgba(241, 27, 27, 0.87);}
 
 li {
   color: #ffffff;
@@ -86,6 +89,11 @@ li {
 }
 
 p {
+  letter-spacing: 1px;
+  word-spacing: 1px;
+line-height: 20px;
+font-family: Quicksand,sans-serif;
+  font-size: 16px;
   color: #ffffff;
   transition: color 0.5s;
   text-align: center;
@@ -101,7 +109,7 @@ p {
 
 .button {
   max-width: 160px;
-  background-color: rgb(255, 136, 0);
+  background-color: rgb(116, 26, 12);
   width: fit-content;
   color: #ffffff;
   border: none;
@@ -117,9 +125,9 @@ p {
   z-index: +1000;
 }
 .button:hover {
-  background-color: rgb(255, 156, 44);
+  background-color: rgb(240, 30, 26);
   transform: scale(1.1);
-  box-shadow: 0 0 10px #c18400;
+  box-shadow: 0 0 10px #e4b3b3;
 }
 
 @media (max-width: 1200px) {
@@ -183,10 +191,11 @@ p {
   align-items: center;
   border: 2px solid white;
   border-radius: 150px;
-  background-color: black;
+  background-color:  rgba(19, 3, 3, 0.689);;
   z-index: 100;
 }
 .logo {
+  
   max-height: 8vh;
   max-width: 40vw;
   padding-left: 4vw;
