@@ -4,6 +4,10 @@ html {
   font-family: sans-serif;
 }
 
+h1{
+  font-family: Romans Story;
+}
+
 body {
   margin: 0;
 }
@@ -5336,4 +5340,7 @@ textarea.w-input, textarea.w-select {
   #w-node-f7be8916-f0ea-965a-619d-0ddde5625ad5-bf50f08d, #w-node-f7be8916-f0ea-965a-619d-0ddde5625aed-bf50f08d {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
+}
+h1 {
+  font-family: Romans Story !important;
 }
