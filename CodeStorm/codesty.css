@@ -196,7 +196,7 @@ html {
   }
   
   .w-icon-nav-menu:before {
-    content: "î˜‚";
+    content: "";
   }
   
   .w-icon-arrow-down:before, .w-icon-dropdown-toggle:before {
