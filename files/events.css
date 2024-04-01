@@ -113,6 +113,7 @@ button, select {
 
 button, html input[type="button"], input[type="reset"] {
   -webkit-appearance: button;
+  appearance: none;
   cursor: pointer;
 }
 
@@ -140,6 +141,7 @@ input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-o
 
 input[type="search"] {
   -webkit-appearance: none;
+  appearance: none;
 }
 
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
@@ -221,7 +223,7 @@ html {
 
 body {
   color: #333;
-  background-color: #fff;
+  background-color: black;
   min-height: 100%;
   margin: 0;
   font-family: Arial, sans-serif;
@@ -236,7 +238,7 @@ img {
 }
 
 html.w-mod-touch * {
-  background-attachment: scroll !important;
+  background-attachment: scroll;
 }
 
 .w-block {
@@ -276,6 +278,7 @@ html.w-mod-touch * {
 
 input.w-button {
   -webkit-appearance: button;
+  appearance: none;
 }
 
 html[data-w-dynpage] [data-w-cloak] {
@@ -2399,7 +2402,7 @@ img {
   aspect-ratio: auto;
   color: var(--white);
   object-fit: fill;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: black;
   background-image: url("https://assets-global.website-files.com/65eae1cf3180e636873d9620/6603c5296df3d929408d1bf6_bgStars.png");
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -6920,4 +6923,8 @@ img {
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
+
+h1 {
+  font-family: Romans Story !important;
 }
