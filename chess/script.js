@@ -16,7 +16,7 @@ fetch('https://script.google.com/macros/s/AKfycbwtS-dKkGeR6ihR1Ct_00LyC8WpKQXj84
     const events = data;
     
     for (let i = 0; i < events.length; i++) {
-      if (events[i].eventName === "Chess") {
+      if (events[i].eventName === "Fifa") {
         fifaCount = events[i].count;
         break;
       }
@@ -48,7 +48,7 @@ function startIncrementing() {
     } else {
       clearInterval(incrementInterval);
     }
-  }, 1); // Adjust the interval for faster or slower incrementation
+  }, 10); // Adjust the interval for faster or slower incrementation
 }
 
 // When the div is in view, start incrementing
