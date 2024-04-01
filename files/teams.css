@@ -7,7 +7,18 @@ html {
   body {
     margin: 0;
   }
-  
+
+.mylogo{
+  width: 25vw;
+  max-width: 250px;
+  padding: 1vw;
+}
+
+.nav-logo-wrap-3{
+  align-items: center;
+  justify-content: center;
+}
+
   article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block;
   }
