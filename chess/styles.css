@@ -404,3 +404,14 @@ font-family: Quicksand,sans-serif;
 .fotlogo{
   box-shadow: none;
 }
+
+.mylogo{
+  width: 25vw;
+  max-width: 250px;
+  padding: 1vw;
+}
+
+.nav-logo-wrap-3{
+  align-items: center;
+  justify-content: center;
+}
