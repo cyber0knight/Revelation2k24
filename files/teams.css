@@ -2757,7 +2757,7 @@ html {
     grid-row-gap: 0px;
     -webkit-text-stroke-color: white;
     -webkit-text-fill-color: inherit;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #1a0404;
     background-clip: border-box;
     flex-flow: column;
     grid-template-rows: auto auto;
