@@ -1201,7 +1201,7 @@
   
     // packages/shared/render/plugins/BaseSiteModules/webflow-brand.js
     var require_webflow_brand = __commonJS({
-      return null;
+      
     });
   
     // packages/shared/render/plugins/BaseSiteModules/webflow-edit.js
