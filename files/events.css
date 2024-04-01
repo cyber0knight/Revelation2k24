@@ -221,7 +221,7 @@ html {
 
 body {
   color: #333;
-  background-color: #fff;
+  background-color: black;
   min-height: 100%;
   margin: 0;
   font-family: Arial, sans-serif;
@@ -236,7 +236,7 @@ img {
 }
 
 html.w-mod-touch * {
-  background-attachment: scroll !important;
+  background-attachment: scroll;
 }
 
 .w-block {
@@ -4204,9 +4204,9 @@ img {
   grid-auto-columns: 1fr;
   justify-content: flex-end;
   align-items: center;
-  width: 99%;
+  width: 100%;
   height: auto;
-  margin-top: 5%;
+  margin-top: 0;
   margin-bottom: 0;
   padding: 5%;
   display: flex;
@@ -6255,7 +6255,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 99%;
+    width: 100%;
     margin-bottom: 0;
     padding: 10% 5% 5%;
   }
