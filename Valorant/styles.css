@@ -2240,7 +2240,7 @@ textarea.w-select {
   position: static;
 }
 
-.container {
+.containerchil {
   border: 1px #000;
   flex-flow: column;
   align-items: center;
@@ -2353,7 +2353,7 @@ textarea.w-select {
   display: flex;
 }
 
-.navbar {
+.navbarlocal {
   background-color: #000;
   border: 1px solid #fff;
   border-radius: 20px;
@@ -2424,7 +2424,7 @@ textarea.w-select {
     background-size: cover;
   }
 
-  .container {
+  .containerchil {
     max-width: 728px;
     height: 100%;
   }
@@ -2455,7 +2455,7 @@ textarea.w-select {
     background-color: rgba(0, 0, 0, 0.3);
   }
 
-  .navbar {
+  .navbarlocal {
     background-color: #000;
   }
 
@@ -2473,7 +2473,7 @@ textarea.w-select {
     padding: 10px 15px 60px;
   }
 
-  .container {
+  .containerchil {
     height: 100%;
   }
 
@@ -2503,7 +2503,7 @@ textarea.w-select {
     padding-left: 11px;
   }
 
-  .container {
+  .containerchil {
     max-width: none;
     height: 100%;
   }
@@ -2546,7 +2546,7 @@ textarea.w-select {
     margin-top: 0;
   }
 
-  .navbar {
+  .navbarlocal {
     width: 95%;
     min-width: 0;
   }
@@ -2564,4 +2564,57 @@ textarea.w-select {
     background-color: rgba(0, 0, 0, 0.3);
     width: 100%;
   }
+}
+
+body{
+  background-color: #000;
+}
+
+footer{
+  background-color: #000;
+}
+
+.fotlogo{
+  box-shadow: none;
+  background-color: #000;
+}
+
+.navbar{
+  margin-left: 2vw;
+}
+
+@media screen and (max-width: 991px){
+  .inner-con2 {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+.vdt{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.rules{
+  width: fit-content;
+  margin: 4vh auto;
+}
+
+.title{
+  padding: 5vw;
+  text-shadow: 2px 2px 8px #302746;
+}
+
+.mylogo{
+  width: 25vw;
+  max-width: 250px;
+  padding: 1vw;
+}
+
+.nav-logo-wrap-3{
+  align-items: center;
+  justify-content: center;
 }
