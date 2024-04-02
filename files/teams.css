@@ -7,7 +7,18 @@ html {
   body {
     margin: 0;
   }
-  
+
+.mylogo{
+  width: 25vw;
+  max-width: 250px;
+  padding: 1vw;
+}
+
+.nav-logo-wrap-3{
+  align-items: center;
+  justify-content: center;
+}
+
   article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block;
   }
@@ -739,6 +750,9 @@ html {
     padding-left: 10px;
     padding-right: 10px;
     position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
   
   .w-col .w-col {
@@ -2103,7 +2117,7 @@ html {
     grid-row-gap: 16px;
     grid-column-gap: 16px;
     grid-template-rows: auto auto;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 250px 250px;
     grid-auto-columns: 1fr;
     display: grid;
   }
@@ -2854,6 +2868,7 @@ html {
   
   .personcontainer.publicity {
     object-fit: fill;
+    max-width: 250px;
   }
   
   .image-21 {
@@ -2913,7 +2928,7 @@ html {
   }
   
   .grid.teamwebsite {
-    grid-template-columns: 1fr 1fr 1fr;
+/*     grid-template-columns: 1fr 1fr 1fr; */
   }
   
   .teamfooter {
@@ -3557,6 +3572,7 @@ html {
       grid-column-gap: 1%;
       grid-row-gap: 1%;
       justify-content: center;
+      grid-template-columns: 1fr 1fr 1fr;
     }
   
     .container-2 {
@@ -4323,6 +4339,7 @@ html {
       justify-content: center;
       align-items: center;
       display: flex;
+/*       width: 120% */
     }
   
     .column-12 {
