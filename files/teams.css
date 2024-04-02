@@ -750,6 +750,9 @@ html {
     padding-left: 10px;
     padding-right: 10px;
     position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
   
   .w-col .w-col {
@@ -2114,7 +2117,7 @@ html {
     grid-row-gap: 16px;
     grid-column-gap: 16px;
     grid-template-rows: auto auto;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 250px 250px;
     grid-auto-columns: 1fr;
     display: grid;
   }
@@ -2924,7 +2927,7 @@ html {
   }
   
   .grid.teamwebsite {
-    grid-template-columns: 1fr 1fr 1fr;
+/*     grid-template-columns: 1fr 1fr 1fr; */
   }
   
   .teamfooter {
@@ -4334,6 +4337,7 @@ html {
       justify-content: center;
       align-items: center;
       display: flex;
+      width: 120%
     }
   
     .column-12 {
