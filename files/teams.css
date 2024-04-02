@@ -2117,7 +2117,7 @@ html {
     grid-row-gap: 16px;
     grid-column-gap: 16px;
     grid-template-rows: auto auto;
-    grid-template-columns: 250px 250px;
+    grid-template-columns: 250px 250px 250px;
     grid-auto-columns: 1fr;
     display: grid;
   }
