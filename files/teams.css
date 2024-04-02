@@ -2868,6 +2868,7 @@ html {
   
   .personcontainer.publicity {
     object-fit: fill;
+    max-width: 250px;
   }
   
   .image-21 {
@@ -3571,6 +3572,7 @@ html {
       grid-column-gap: 1%;
       grid-row-gap: 1%;
       justify-content: center;
+      grid-template-columns: 1fr 1fr 1fr;
     }
   
     .container-2 {
@@ -4337,7 +4339,7 @@ html {
       justify-content: center;
       align-items: center;
       display: flex;
-      width: 120%
+/*       width: 120% */
     }
   
     .column-12 {
