@@ -203,30 +203,31 @@
     <script src="./script.js"
         type="text/javascript"></script>
         <script>
-            const days = document.getElementById("days");
-            const hours = document.getElementById("hours");
-            const minutes = document.getElementById("minutes");
-            const seconds = document.getElementById("seconds");
-        
-            const predate = new Date("3/24/2024");
-            const revedate = new Date("4/4/2024");
-        
-            function updateCounter() {
-                const currentDate = new Date();
-                const diff = revedate.getTime() - currentDate.getTime();
-                const d = Math.floor(diff / (1000 * 3600 * 24));
-                const h = Math.floor(diff / (1000 * 3600)) % 24;
-                const m = Math.floor(diff / (1000 * 60)) % 60;
-                const s = Math.floor(diff / 1000) % 60;
-                days.innerHTML = d < 10 ? "0" + d : d;
-                hours.innerHTML = h < 10 ? "0" + h : h;
-                minutes.innerHTML = m < 10 ? "0" + m : m;
-                seconds.innerHTML = s < 10 ? "0" + s : s;
-            }
-        
-            // Update the counter immediately and then every second
-            updateCounter();
-            setInterval(updateCounter, 1000);
+           const days = document.getElementById("days");
+        const hours = document.getElementById("hours");
+        const minutes = document.getElementById("minutes");
+        const seconds = document.getElementById("seconds");
+
+        const predate = new Date("3/24/2024");
+        const revedate = new Date("4/4/2024 07:00:00"); // Modified to include 7am
+
+        function updateCounter() {
+            const currentDate = new Date();
+            const diff = revedate.getTime() - currentDate.getTime();
+            const d = Math.floor(diff / (1000 * 3600 * 24));
+            const h = Math.floor(diff / (1000 * 3600)) % 24;
+            const m = Math.floor(diff / (1000 * 60)) % 60;
+            const s = Math.floor(diff / 1000) % 60;
+            days.innerHTML = d < 10 ? "0" + d : d;
+            hours.innerHTML = h < 10 ? "0" + h : h;
+            minutes.innerHTML = m < 10 ? "0" + m : m;
+            seconds.innerHTML = s < 10 ? "0" + s : s;
+        }
+
+        // Update the counter immediately and then every second
+        updateCounter();
+        setInterval(updateCounter, 1000);
+
         </script>
 </body>
 
