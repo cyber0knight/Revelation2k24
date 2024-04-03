@@ -3187,9 +3187,9 @@ textarea.w-input, textarea.w-select {
 }
 
 .text.txt3 {
-  width: 100%;
+  width: 90%;
   margin-left: 23px;
-  font-size: 35px;
+  font-size: 34px;
   line-height: 100%;
 }
 
@@ -4125,7 +4125,7 @@ textarea.w-input, textarea.w-select {
   }
 
   .imp {
-    width: 50%;
+    width: 68%;
     margin-left: 25px;
     font-size: 18px;
   }
