@@ -4,6 +4,10 @@ html {
   font-family: sans-serif;
 }
 
+a{
+  text-decoration: none;
+}
+
 h1{
   font-family: Romans Story;
 }
@@ -3727,6 +3731,7 @@ textarea.w-input, textarea.w-select {
   }
 
   .text {
+    margin-left: 15px;
     font-size: 40px;
   }
 
