@@ -1084,13 +1084,13 @@ font-family: Quicksand,sans-serif;
 }
 
 .brain{
-  transform: scale(1.1);
+  transform: translateZ(-20px)scale(1.1);
   margin-bottom: 40px;
 }
 
 .dead{
   margin-top: 0px;
-  transform: scale(0.9);
+  transform: translateZ(10px)scale(0.9);
 }
 
 .childcontainer{
