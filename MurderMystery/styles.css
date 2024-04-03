@@ -559,7 +559,7 @@ font-family: Quicksand,sans-serif;
 }
 
 .brain{
-  transform: translateZ(-20px)scale(1.1);
+  transform: translateZ(10px)scale(1.1);
   margin-bottom: 40px;
 }
 
